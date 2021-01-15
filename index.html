@@ -9,5 +9,107 @@
   <body>
     <h1>猫の一日</h1>
     <p>ひたすら寝てます。</p>
+
+    <a href="https://google.co.jp">
+      <img src="sakura.png" alt="美しい桜">
+    </a>
+
+    <ul>
+      <li>卵</li>
+      <li>しょうゆ</li>
+      <li>みりん</li>
+      <li>塩</li>
+    </ul>
+
+    <ol>
+      <li>卵を割る</li>
+      <li>焼く</li>
+      <li>完成</li>
+    </ol>
+
+    <table border="1">
+      <tr>
+        <th>プラン名</th>
+        <th>料金</th>
+      </tr>
+      <tr>
+        <td>ワクワクプラン</td>
+        <td>月額2,900円</td>
+      </tr>
+      <tr>
+        <td>ニコニコプラン</td>
+        <td>月額1,900円</td>
+      </tr>
+    </table>
+
+<br>
+
+<!--表のテスト-->
+    <table border="1">
+      <tr>
+        <th>セル1</th>
+        <th>セル2</th>
+      </tr>
+      <tr>
+        <td>セル3</td>
+        <td>セル4</td>
+      </tr>
+      <tr>
+        <td>セル5</td>
+        <td>セル6</td>
+      </tr>
+    </table>
+
+<br>
+
+<!--表のテスト2(横つなぎ)-->
+    <table border="1">
+      <tr>
+        <th colspan="2">セル1+2</th>
+      </tr>
+      <tr>
+        <td>セル3</td>
+        <td>セル4</td>
+      </tr>
+      <tr>
+        <td>セル5</td>
+        <td>セル6</td>
+      </tr>
+    </table>
+
+<br>
+
+<!--表のテスト3(縦つなぎ)-->
+    <table border="1">
+      <tr>
+        <th>セル1</th>
+        <th>セル2</th>
+      </tr>
+      <tr>
+        <td rowspan="2">セル3+5</td>
+        <td>セル4</td>
+      </tr>
+      <tr>
+        <td>セル6</td>
+      </tr>
+    </table>
   </body>
 </html>
+
+<br>
+
+<!--フォームを作ろう-->
+<form action="example.php" method="post" name="contact-form">
+  ここにフォームの部品が入ります。
+</form>
+
+<!--HTMLでフォーム-->
+<input type="text">
+<input type="text" placeholder="名字 名前">
+
+<br><br>
+
+性別
+<input type="radio" name="gender" value="男"> 男
+<input type="radio" name="gender" value="女" checked> 女
+<input type="radio" name="gender" value="その他"> その他
