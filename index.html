@@ -1,115 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>猫の実態</title>
-    <meta name="discription" content="猫の好きなもの、日々の生活をご紹介">
-  </head>
+    <title>フォームを作ろう</title>
+    <meta name="description" content="ボタンに画像を使いたい場合゙">
+</head>
 
-  <body>
-    <h1>猫の一日</h1>
-    <p>ひたすら寝てます。</p>
+<body>
 
-    <a href="https://google.co.jp">
-      <img src="sakura.png" alt="美しい桜">
-    </a>
+<input type="checkbox" name="travel" value="日本国内" id="japan">
+<label for="japan">日本国内</label>
 
-    <ul>
-      <li>卵</li>
-      <li>しょうゆ</li>
-      <li>みりん</li>
-      <li>塩</li>
-    </ul>
+<input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+<label for="europe">ヨーロッパ</label>
 
-    <ol>
-      <li>卵を割る</li>
-      <li>焼く</li>
-      <li>完成</li>
-    </ol>
+<input type="checkbox" name="travel" value="東南アジア" id="asia">
+<label for="asia">東南アジア</label>
 
-    <table border="1">
-      <tr>
-        <th>プラン名</th>
-        <th>料金</th>
-      </tr>
-      <tr>
-        <td>ワクワクプラン</td>
-        <td>月額2,900円</td>
-      </tr>
-      <tr>
-        <td>ニコニコプラン</td>
-        <td>月額1,900円</td>
-      </tr>
-    </table>
 
-<br>
+</body>
 
-<!--表のテスト-->
-    <table border="1">
-      <tr>
-        <th>セル1</th>
-        <th>セル2</th>
-      </tr>
-      <tr>
-        <td>セル3</td>
-        <td>セル4</td>
-      </tr>
-      <tr>
-        <td>セル5</td>
-        <td>セル6</td>
-      </tr>
-    </table>
-
-<br>
-
-<!--表のテスト2(横つなぎ)-->
-    <table border="1">
-      <tr>
-        <th colspan="2">セル1+2</th>
-      </tr>
-      <tr>
-        <td>セル3</td>
-        <td>セル4</td>
-      </tr>
-      <tr>
-        <td>セル5</td>
-        <td>セル6</td>
-      </tr>
-    </table>
-
-<br>
-
-<!--表のテスト3(縦つなぎ)-->
-    <table border="1">
-      <tr>
-        <th>セル1</th>
-        <th>セル2</th>
-      </tr>
-      <tr>
-        <td rowspan="2">セル3+5</td>
-        <td>セル4</td>
-      </tr>
-      <tr>
-        <td>セル6</td>
-      </tr>
-    </table>
-  </body>
 </html>
-
-<br>
-
-<!--フォームを作ろう-->
-<form action="example.php" method="post" name="contact-form">
-  ここにフォームの部品が入ります。
-</form>
-
-<!--HTMLでフォーム-->
-<input type="text">
-<input type="text" placeholder="名字 名前">
-
-<br><br>
-
-性別
-<input type="radio" name="gender" value="男"> 男
-<input type="radio" name="gender" value="女" checked> 女
-<input type="radio" name="gender" value="その他"> その他
